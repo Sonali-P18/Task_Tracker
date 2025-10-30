@@ -1,0 +1,11 @@
+hwo to run
+cd backend
+python app.py 
+
+cd fronted
+npm install 
+npm run
+
+git clone giturl
+git add .
+git commit -m "code pus
