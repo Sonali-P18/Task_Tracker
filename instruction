@@ -5,7 +5,18 @@ python app.py
 cd fronted
 npm install 
 npm run
+npm start
 
 git clone giturl
 git add .
-git commit -m "code pus
+git commit -m "code pushed"
+git push 
+
+
+git status
+git add .
+git commit
+git push origin master
+
+go for This Website for :
+http://localhost:3000/

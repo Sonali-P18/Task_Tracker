@@ -1,43 +1,31 @@
-# Design Decisions & Notes
+Design Decisions:-
 
-## Database Design
-- Used MongoDB for flexibility in task structure
-- Simple schema with appropriate field types
-- Added indexes on frequently queried fields (status, priority, due_date)
-- Included timestamps for auditing
+Database Design:
+-- Chose MongoDB for its flexibility in handling varied task structures.
+--Designed a simple and clean schema with appropriate field types.
+--Added indexes on frequently queried fields such as status, priority, and due_date to improve performance.
+--Included timestamps to support tracking and auditing of changes.
 
-## API Design
-- RESTful endpoints with proper HTTP methods
-- Input validation and error handling
-- Consistent response format
-- CORS enabled for frontend integration
+API Design:
+--Built a RESTful API using standard HTTP methods.
+--Implemented input validation and consistent error handling across endpoints.
+--Ensured all responses follow a uniform, structured format.
+--Enabled CORS to allow seamless communication with the frontend.
 
-## Frontend Architecture
-- Component-based React architecture
-- State management with hooks
-- Responsive CSS Grid layout
-- Real-time updates after mutations
+Frontend Architecture:
+--Used a component-based React architecture for modularity and reusability.
+--Managed state efficiently with React Hooks.
+--Designed a responsive layout using CSS Grid for an adaptive user experience.
+--Ensured the UI updates in real time after any create, update, or delete action.
 
-## Smart Insights Logic
-- Rule-based summary generation
-- Priority and status analysis
-- Due date calculations
-- Natural language formatting
-
-## Improvements for Production
-1. Add user authentication (JWT)
-2. Implement pagination for large task lists
-3. Add unit and integration tests
-4. Add rate limiting
-5. Implement proper error logging
-6. Add task categories/tags
-7. Implement task dependencies
-8. Add file attachments
-9. Implement real-time updates with WebSockets
-10. Add data export functionality
-
-## Performance Considerations
-- MongoDB queries are optimized with indexes
-- Frontend uses efficient re-rendering
-- Minimal dependencies for faster loading
-- Responsive images and assets
+Improvements for Production:
+--Add user authentication (JWT)
+--Implement pagination for large task lists
+--Add unit and integration tests
+--Add rate limiting
+--Implement proper error logging
+--Add task categories/tags
+--Implement task dependencies
+--Add file attachments
+--Implement real-time updates with WebSockets
+--Add data export functionality

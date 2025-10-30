@@ -1,36 +1,12 @@
-# Task Tracker with Smart Insights
+#Task Tracker with Smart Insights
 
 A full-stack web application for tracking tasks with AI-style insights about your workload.
 
-## Features
+now to run backend anf frontend,
+For backend- cd backend
+           -python app.py
 
-- ✅ Create and manage tasks with title, description, priority, due date, and status
-- 🔍 Filter tasks by status and priority
-- 📊 Smart insights showing workload summary
-- 🎯 Priority-based task management
-- 📱 Responsive design
+For frontend- cd fronted
+            -npm start
 
-## Tech Stack
-
-### Backend
-- Python Flask
-- MongoDB
-- Flask-CORS
-
-### Frontend
-- React
-- Axios for API calls
-- CSS Grid & Flexbox
-
-## Setup Instructions
-
-### Prerequisites
-- Python 3.8+
-- Node.js 14+
-- MongoDB (local or Atlas)
-
-### Backend Setup
-
-1. Navigate to backend directory:
-```bash
-cd backend
+then it automatically connects all requirements and gives output screen, which is responsive and we can make our task list according to our requirement.
